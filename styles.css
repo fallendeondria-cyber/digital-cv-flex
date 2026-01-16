@@ -1,0 +1,133 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Container */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f4f7;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Flex Layout for Skills & Experience */
+.flex-section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.skills, .experience {
+  flex: 1 1 400px; /* responsive widths */
+}
+
+.skills ul, .experience ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 24px;
+  color: #34495e;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #2c3e50;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #34495e;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Contact Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  background-color: #34495e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c3e50;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
